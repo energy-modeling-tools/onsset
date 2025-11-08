@@ -692,8 +692,14 @@ td.does-not-support { color: $red-500; }
 
 .logo-hover:hover {
   filter: brightness(0.8); /* Darken effect */
+  transform: scale(1.1) !important; /* Scale up on hover */
   /* Or use the following code to add shadow effect */
   // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* For images with translateY, combine both transforms on hover */
+.logo-hover:hover img {
+  transform: translateY(-8px) scale(1.1) !important;
 }
 
 // About page subtitle styles - inherits from alt-h3
