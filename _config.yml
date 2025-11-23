@@ -57,7 +57,7 @@
 # global settings
 title: Open-Source Spatial Electrification tool (OnSSET) 
 description: "GitHub helps government build software better, together"
-baseurl: "/OnSSET.github.io" # the subpath of your site
+baseurl: "/onsset.github.io" # the subpath of your site
 permalink: "/stories/:title"
 # url: https://zixuan-liu-17.github.io
 relative_permalinks: false
