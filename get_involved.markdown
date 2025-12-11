@@ -22,6 +22,8 @@ permalink: /contact/
         collaborating to accelerate electricity access through transparent, data-driven tools.
       </p>
 
+      {% include forum_cta.html %}
+
       <div class="text-center mb-4">
         <h4 class="platform-benefits-title">Through our community, you can:</h4>
       </div>
